@@ -5,7 +5,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   width: 100%;
-
+  justify-content: center;
 }
 
 .team-card {
@@ -69,7 +69,7 @@ p.team-member-paragraph {
 .stack-wrapper {
   display: grid;
   align-items: center;
-  grid-template-columns: 4fr 1fr 3fr;
+  grid-template-columns: 4fr 1fr 4fr;
   gap: 10px;
   text-align: left;
 
@@ -116,5 +116,21 @@ img.check {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  align-items: center;
+  text-align: left;
+}
+
+.wrapper-left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-position: inside;
 }
